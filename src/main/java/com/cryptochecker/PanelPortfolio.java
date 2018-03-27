@@ -446,7 +446,8 @@ public class PanelPortfolio {
                 Debug.log("-- "+selectedValue);
             }
             // convert to WebData.Coin
-            WebData.Coin value = (WebData.Coin) selectedValue;
+            WebData.Coin shallowValue = (WebData.Coin) selectedValue;
+            WebData.Coin value = (WebData.Coin) shallowValue.copy();
 
 
             // SELECTING amounts to cryptocurrency

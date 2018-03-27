@@ -28,7 +28,7 @@ public class Debug {
         contentPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 
         frame = new JFrame("Debug Log");
-        frame.setSize(600, 300);
+        frame.setSize(610, 300);
         frame.setVisible(false);
         frame.add(contentPane);
 

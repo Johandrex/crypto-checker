@@ -149,7 +149,7 @@ public class WebData {
         return new Coin();
     }
 
-    public class Coin implements Serializable { // store coin data in this class
+    public class Coin implements Serializable, Cloneable { // store coin data in this class
         private static final long serialVersionUID = 1L;
         String id;
         String name;
@@ -189,6 +189,21 @@ public class WebData {
         String portfolio_currency;
         double portfolio_price_start;
         double portfolio_value_start;
+
+        public Object copy() {
+            try {
+                return clone();
+            } catch(Exception ex) {
+                ex.printStackTrace();
+            }
+
+            return new Object();
+        }
+
+        @Override
+        protected Object clone() throws CloneNotSupportedException {
+            return super.clone();
+        }
 
         public String toString() {
             return name;

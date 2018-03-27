@@ -23,16 +23,16 @@ Crypto Checker is a cross-platform software for tracking cryptocurrency. It's my
 
 ### Security
 crypto-checker-1.0.jar
-<br/>MD5: 7e7c30eba1f8bf0efba41b25667c8c7e
-<br/>SHA1: a63b330482cd0418d820a334e5ddb8e271acfae1
-<br/>SHA256: 5a19e5411dc95b42525798fb337f1f689fbb9c32c085b2578f6189f02fe47c50
-<br/>[Clean, no malware detected](https://www.virustotal.com/#/file/5a19e5411dc95b42525798fb337f1f689fbb9c32c085b2578f6189f02fe47c50/detection)
+<br/>MD5: c8a0bbc19f27113252db167311415487
+<br/>SHA1: f17e5e7c65279077454cd90d0db40bead718ce56
+<br/>SHA256: df53e51ac9131938575c48c12481378b5127d71b90994fde9160258f2260070c
+<br/>[Clean, no malware detected](https://www.virustotal.com/#/file/df53e51ac9131938575c48c12481378b5127d71b90994fde9160258f2260070c/detection)
 
 crypto-checker-1.0-no-dependencies.jar
-<br/>MD5: 6e9995b23fd3b292028e4cf1de37cdce
-<br/>SHA1: 755fc696277a283cf0ae6de4860af1685387f35f
-<br/>SHA256: fed8f5618f16aa4cf9f5416b22738f740e40d5a24d098c7c11ab92962ef3d494
-<br/>[Clean, no malware detected](https://www.virustotal.com/#/file/fed8f5618f16aa4cf9f5416b22738f740e40d5a24d098c7c11ab92962ef3d494/detection)
+<br/>MD5: 345900eb97ebe66ec3e4fd9f95c3f504
+<br/>SHA1: 8c37ae02e9f22f943a3ab832bfdbdcd37e87d7b2
+<br/>SHA256: cad84b0e154687cde1fabd010b8009b082e9fb83ab68066ae892fec12d533640
+<br/>[Clean, no malware detected](https://www.virustotal.com/#/file/cad84b0e154687cde1fabd010b8009b082e9fb83ab68066ae892fec12d533640/detection)
 
 ### License
 Licensed under GNU General Public License v3.0. You may use the software for commercial use, modification, distribution, patent use & private use.

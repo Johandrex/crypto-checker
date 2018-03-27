@@ -263,7 +263,7 @@ public class WebData {
             return getInfo()
             + "\n"
             + "\nPortfolio Amount: " + trimPrice(portfolio_amount)
-            + "\nPortfolio Price: " + trimPrice(portfolio_price)
+            //+ "\nPortfolio Price: " + trimPrice(portfolio_price) // necessary for converting, but not necessary to display
             + "\nPortfolio Value: " + df.format(portfolio_value)
             + "\nPortfolio Gains: " + df.format(portfolio_gains)
             + "\n"

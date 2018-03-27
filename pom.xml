@@ -5,7 +5,7 @@
   <version>1.0</version>
   <packaging>jar</packaging>
   <name>crypto-checker</name>
-  <url>https://github.com/Johandrex</url>
+  <url>https://github.com/Johandrex/crypto-checker</url>
   <build>
     <plugins>
       <plugin>

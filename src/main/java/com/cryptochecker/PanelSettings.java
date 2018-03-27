@@ -629,7 +629,7 @@ public class PanelSettings {
         public void actionPerformed(ActionEvent e) {
             Debug.log("Button Color " + number + " Pressed");
 
-            colorChooser.getSelectionModel().removeChangeListener​(changeListener);
+            colorChooser.getSelectionModel().removeChangeListener(changeListener);
 
             changeListener = new colorChangeListener(number);
             colorChooser.getSelectionModel().addChangeListener(changeListener);

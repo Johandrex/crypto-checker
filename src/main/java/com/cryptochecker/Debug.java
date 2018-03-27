@@ -1,6 +1,5 @@
 package com.cryptochecker;
 
-import java.awt.*;
 import java.awt.event.*;
 import java.time.LocalDateTime;
 import java.io.*;

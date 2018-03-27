@@ -142,7 +142,7 @@ public class PanelPortfolio {
         TableRowSorter<TableModel> rowSorter = new TableRowSorter<TableModel>(model);
         table.setRowSorter(rowSorter);
         
-        ArrayList<RowSorter.SortKey> sortKeys = new ArrayList(25);
+        ArrayList<RowSorter.SortKey> sortKeys = new ArrayList<RowSorter.SortKey>(25);
         sortKeys.add(new RowSorter.SortKey(2, SortOrder.DESCENDING));
         rowSorter.setSortKeys(sortKeys);
 
@@ -214,9 +214,9 @@ public class PanelPortfolio {
     public class contentPaneScroll implements MouseWheelListener {
         public void mouseWheelMoved(MouseWheelEvent e) {
             if (e.getWheelRotation() < 0) {
-                contentPane.getVerticalScrollBar().setValue(-e.getScrollAmount​()*12+contentPane.getVerticalScrollBar().getValue());
+                contentPane.getVerticalScrollBar().setValue(-e.getScrollAmount()*12+contentPane.getVerticalScrollBar().getValue());
             } else {
-                contentPane.getVerticalScrollBar().setValue(e.getScrollAmount​()*12+contentPane.getVerticalScrollBar().getValue());
+                contentPane.getVerticalScrollBar().setValue(e.getScrollAmount()*12+contentPane.getVerticalScrollBar().getValue());
             }
         }
     }
@@ -281,7 +281,7 @@ public class PanelPortfolio {
                 int rowNr = table.convertRowIndexToModel(table.getSelectedRow());
                 Debug.log("Table Portfolio " + nr + ", Row " + rowNr + ", Column " + columnNr);
                 JOptionPane.showMessageDialog(Main.frame, Main.gui.webData.portfolio.get(nr).get(rowNr).getPortfolio(), Main.gui.webData.portfolio.get(nr).get(rowNr).toString(), JOptionPane.PLAIN_MESSAGE);
-                table.clearSelection​();
+                table.clearSelection();
         }
 
         public void mouseExited(MouseEvent e) { }
@@ -407,7 +407,7 @@ public class PanelPortfolio {
         overviewText.setBackground(Main.theme.background);
         overviewText.setForeground(Main.theme.foreground);
 
-        table.setSelectionForeground​(Main.theme.selection);
+        table.setSelectionForeground(Main.theme.selection);
         table.setSelectionBackground(Main.theme.background);
 
         table.setBackground(Main.theme.background);

@@ -2,7 +2,6 @@ package com.cryptochecker;
 
 import java.awt.*;
 import java.awt.event.*; // events when interacting with components, such as buttons
-import java.io.*;
 import javax.swing.*;
 import javax.swing.border.Border;
 

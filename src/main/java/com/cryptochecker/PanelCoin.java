@@ -168,7 +168,7 @@ public class PanelCoin {
             int rowNr = table.convertRowIndexToModel(table.getSelectedRow());
             Debug.log("Table Coin, Row " + rowNr + ", Column " + columnNr);
             JOptionPane.showMessageDialog(Main.frame, Main.gui.webData.coin.get(rowNr).getInfo(), Main.gui.webData.coin.get(rowNr).toString(), JOptionPane.PLAIN_MESSAGE);
-            table.clearSelection​();
+            table.clearSelection();
         }
 
         public void mouseExited(MouseEvent e) { }
@@ -282,7 +282,7 @@ public class PanelCoin {
     public void themeSwitch() {
         pane.getViewport().setBackground(Main.theme.emptyBackground);
 
-        table.setSelectionForeground​(Main.theme.selection);
+        table.setSelectionForeground(Main.theme.selection);
         table.setSelectionBackground(Main.theme.background);
         table.setBackground(Main.theme.background);
         

@@ -16,9 +16,8 @@ public class Debug {
     public Debug() throws Exception {
         printWriter = new PrintWriter(new BufferedWriter(new FileWriter(Main.logLocation, true))); // second line in filewriter appends the line
         
-        LocalDateTime startupTime = LocalDateTime.now();
-        print.append("Program started up "+startupTime+"\n");
-        printWriter.println("\nProgram started up "+startupTime);
+        print.append("Program started up "+LocalDateTime.now()+"\n");
+        printWriter.println("\nProgram started up "+LocalDateTime.now());
         printWriter.close();
 
         print.setEditable(true);
